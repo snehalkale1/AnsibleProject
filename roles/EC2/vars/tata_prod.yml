@@ -1,0 +1,6 @@
+KEYNAME : terraform
+REGION : us-east-1
+AZ : us-east-1b
+SUBNETID : subnet-02fd28c4353a9ff59
+SGNAME : "PriSG"
+AMIID : ami-0885b1f6bd170450c

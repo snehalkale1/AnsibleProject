@@ -1,0 +1,6 @@
+KEYNAME : terraform
+REGION : us-east-1
+AZ : us-east-1a
+SUBNETID : subnet-02581a9df29cf553a
+SGNAME : "PubSG"
+AMIID : ami-0885b1f6bd170450c

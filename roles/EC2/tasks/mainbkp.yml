@@ -1,0 +1,16 @@
+---
+# tasks file for EC2
+-
+  name: "EC2 Lanuncher"
+  ec2:
+    assign_public_ip: true
+    count: 1
+    group: PubSG
+    image: ami-0be2609ba883822ec
+    instance_type: t2.micro
+    key_name: terraform
+    region: us-east-1
+    vpc_subnet_id: subnet-02581a9df29cf553a
+    wait: true
+
+
