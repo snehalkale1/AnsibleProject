@@ -1,0 +1,5 @@
+---
+- name: "Launch EC2"
+  hosts: localhost
+  roles:
+        - role: EC2
